@@ -7,11 +7,11 @@
 #Developer: Paulo Baraldi Mausbach
 #LNLS - Brazilian Synchrotron Light Source Laboratory
 
+__all__ = ["DateAxisItem"]
+
 """
 This module provides date-time aware axis
 """
-
-__all__ = ["DateAxisItem"]
 
 import numpy as np
 from pyqtgraph import AxisItem
